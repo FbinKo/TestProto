@@ -9,7 +9,7 @@ public class Health : MonoBehaviour {
     public Text gameOverText;
     public float damageoT = 0.01f;
     public float deathTime = 2.0f;
-    private bool isGameOver = false;
+    private bool isGameOver = false; //dead
 
     void Start()
     {
